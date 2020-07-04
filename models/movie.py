@@ -11,7 +11,7 @@ class Movie(BaseModel):
     title: str
     plot: str = None
     fullplot: str = None
-    pposter: str = None
+    poster: str = None
     rated: str = None
     released: datetime = None
     genres: List[str] = []
