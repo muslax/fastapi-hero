@@ -11,10 +11,12 @@ class Movie(BaseModel):
     title: str
     plot: str = None
     fullplot: str = None
+    pposter: str = None
     rated: str = None
     released: datetime = None
     genres: List[str] = []
     cast: List[str] = []
+    writers: List[str] = []
     directors: List[str] = []
     imdb: IMDB
     # type: str
