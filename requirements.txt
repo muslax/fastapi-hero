@@ -7,6 +7,7 @@ click==7.1.2
 cryptography==2.9.2
 cssselect==1.1.0
 cssutils==1.0.2
+dnspython==1.16.0
 ecdsa==0.15
 emails==0.6
 fastapi==0.58.1
